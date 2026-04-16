@@ -1,0 +1,30 @@
+🎮 Main Menu → Edit MainMenu.js
+
+Title, buttons, styling, background
+Click handlers for START/SETTINGS buttons
+
+🎮 Game (Gameplay) → Edit Game.js
+
+Player movement, shooting, enemies, waves
+Score, collision detection
+Game rules
+
+🎮 Game Over → Edit GameOver.js
+
+Game over screen, restart button
+For GLOBAL settings, edit these:
+
+⚙️ Game Config → Edit main.js
+
+Game size (640, 400)
+Scene order
+Physics settings
+Loading assets
+
+⚙️ Page Setup → Edit index.html and style.css
+
+HTML structure
+Page styling
+⚙️ Assets → Edit Boot.js
+Load images/sounds (wall.png, etc.)
+
