@@ -1,10 +1,9 @@
-import Phaser, { AUTO, Game } from 'phaser';
+import { AUTO, Game, Scale } from 'phaser';
 import { Boot } from './scenes/Boot';
 import { Game as MainGame } from './scenes/Game';
 import { GameOver } from './scenes/GameOver';
 import { MainMenu } from './scenes/MainMenu';
 import { Preloader } from './scenes/Preloader';
-import { AUTO, Game } from 'phaser';
 
 //  Find out more information about the Game Config at:
 //  https://docs.phaser.io/api-documentation/typedef/types-core#gameconfig
@@ -14,13 +13,6 @@ const config = {
     height: 768,
     parent: 'game-container',
     backgroundColor: '#1b1b2f',
-    physics: {
-        default: 'arcade',
-        arcade: {
-            gravity: { y: 0 },
-            debug: false
-        }
-    },
     scale: {
         mode: Scale.NONE,
         autoCenter: Scale.CENTER_BOTH
